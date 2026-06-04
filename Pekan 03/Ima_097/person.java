@@ -13,7 +13,7 @@ public class Main {
 
         Person orang1 = new Person();
 
-        orang1.nama = "Aricha";
+        orang1.nama = "Imaaa";
         orang1.umur = 19;
 
         orang1.tampilData();
