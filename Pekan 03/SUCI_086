@@ -1,1 +1,31 @@
-ETDGBH
+class Person {
+    // Atribut
+    String name;
+    int age;
+    String city;
+
+    // Constructor
+    public Person(String name, int age, String city) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+    }
+
+    // Method untuk menampilkan informasi
+    public void displayInfo() {
+        System.out.println("Nama  : " + name);
+        System.out.println("Umur  : " + age);
+        System.out.println("Kota  : " + city);
+    }
+}
+
+// Class Main
+ class Main {
+    public static void main(String[] args) {
+        // Membuat object dari class Person
+        Person person1 = new Person("Suci Amalia", 20, "Surabaya");
+
+        // Menampilkan informasi object
+        person1.displayInfo();
+    }
+}
